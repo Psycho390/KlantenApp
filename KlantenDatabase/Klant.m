@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  Klant.m
 //  KlantenDatabase
 //
 //  Created by Nicolas Alexander van der Boor on 16-04-13.
 //  Copyright (c) 2013 Nicolas Alexander van der Boor. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "sqlite3.h"
+#import "Klant.h"
 
-@interface ViewController : UIViewController
+@implementation Klant
 
 @end

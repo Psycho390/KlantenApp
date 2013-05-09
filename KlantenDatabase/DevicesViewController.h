@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DevicesViewController.h
 //  KlantenDatabase
 //
 //  Created by Nicolas Alexander van der Boor on 16-04-13.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Device.h"
 #import "sqlite3.h"
-
-@interface ViewController : UIViewController
+@interface DevicesViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic) IBOutlet UITableView *mijnDevicesTable;
 
 @end

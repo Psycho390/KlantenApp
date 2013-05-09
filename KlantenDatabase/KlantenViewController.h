@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KlantenViewController.h
 //  KlantenDatabase
 //
 //  Created by Nicolas Alexander van der Boor on 16-04-13.
@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Klant.h"
 #import "sqlite3.h"
 
-@interface ViewController : UIViewController
+@interface KlantenViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *mijnKlantenTable;
+
 
 @end
